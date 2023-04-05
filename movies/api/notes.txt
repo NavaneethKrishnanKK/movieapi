@@ -1,0 +1,54 @@
+API PLANNING:
+
+1.to get all movies list:
+       url : 127.0.0.1:8000/movies 
+       Method : GET 
+       Response : Movie list
+
+2.to get specific movie details: 
+       url : 127.0.0.1:8000/movies/1
+       Method : GET 
+       Response : Specific Movie
+
+3.To add a new movie:
+       url : 127.0.0.1:8000/movies
+       Method : POST
+       Data : {
+              "name":"Amaram",
+              "year":"1989"
+              "director":"ar"
+              "genre":"drama"
+       } 
+       Response : Complete Movie List
+
+4.To add update a specific movie details:
+       url : 127.0.0.1:8000/movies
+       Method : POST
+       Data : {
+              "name":"Amaram",
+              "year":"1989"
+              "director":"ar"
+              "genre":"drama"
+       } 
+       Response : Complete Movie List
+
+5.To delete a specific movie details:
+       url : 127.0.0.1:8000/movies/1
+       Method : DELETE
+       Response : Complete Movie List
+
+6.To get list of movies in specific genre:
+       url : 127.0.0.1:8000/movies?genre=drama
+       Method : GET
+       Response : Movie List under specific genre
+
+7.To get list of movies released before 2015:
+       url : 127.0.0.1:8000/movies?year=2015
+       Method : GET
+       Response : Movie List which released in 2015
+
+8.To get list of movies released before 2015:
+       url : 127.0.0.1:8000/movies?year=2015
+       Method : GET
+       Response : Movie List which released in 2015
+
