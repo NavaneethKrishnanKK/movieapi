@@ -23,3 +23,4 @@ urlpatterns = [
     path('movies/<int:mid>', MovieItem.as_view()),
     path('mv', MovieMList.as_view()),
 ]
+
